@@ -1,0 +1,150 @@
+body{
+	background:#272727; 
+	color:#a79f7f;
+	overflow-y:scroll;
+}
+body,input{
+	font:normal 18px/1.4em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+a{
+	color:#a79f7f;
+	text-decoration:none;
+}
+ul,dl,dd{
+	margin:0;
+	padding:0;	
+}
+ul{
+	list-style:none;
+}
+header,
+section{
+	display:block;
+}
+header{
+	background:#5f5f4f;
+	color:#fff;
+	padding:.5em .7em;
+	height:1.9em;
+}
+header a,
+header label{
+	display:inline-block;
+	padding:.3em;
+}
+header label,
+header input{
+	float:left;	
+}
+header .back{
+	display:none;	
+}
+header .back a{
+	color:#fff;
+}
+header .search a{
+	float:right;
+}
+header a span{
+	color:#fff;
+}
+header input{
+	background-color:#877f5f;
+	border:1px solid #978f6f;
+	color:#fff;
+	vertical-align:middle;
+	width:300px;
+}
+section{
+	background:#373737;
+	padding:1em;
+}
+/* id based rules */
+#container{
+	position:relative;
+	margin:1em auto;
+	width:640px;	
+}
+.contact-manager h1{
+	background:url(../img/logo.png) no-repeat;
+	height:70px;
+	text-indent:-9000px;
+	width:279px;	
+}
+.contact-manager li{
+	background:#272727;
+	margin-bottom:.5em;
+	padding:.4em;
+}
+.contact-manager ul span{
+	color:#fff;
+}
+.contact-manager .links{
+	color:#fff;
+	float:right;
+}
+.contact-manager .links a{
+	text-decoration:underline;
+}
+.contact-manager li:last-child{
+	margin-bottom:0;
+}
+.contact-manager .data,
+.contact-manager .editor{
+	display:none;
+}
+.contact-manager .data{
+	height:4.2em;
+}
+.contact-manager .data dt{
+	clear:left;
+	float:left;
+	font-weight:bold;
+	padding-right:.5em;
+	text-align:right;
+	width:80px;
+}
+.contact-manager .data dd{
+	color: #fff;
+}
+.editor label{
+	display:block;
+	color:#fff;
+}
+.editor input[type=text]{
+	background-color:#272727;
+	border:1px solid #222;
+	color:#a79f7f;
+	padding:.3em;
+	vertical-align:middle;
+	width:300px;
+}
+.editor div{
+	color:#fff;
+	margin-top:1em;	
+}
+.editor div a{
+	text-decoration:underline;
+}
+.editor div input{
+	background:#272727;	
+	border:1px solid #a79f7f;
+	color:#a79f7f;
+	padding:.2em 1em;
+}
+.loading{
+	background:#900;
+	border-radius:.5em .5em 0 0;
+	color:#fff;
+	display:none;
+	line-height:1em;
+	margin-top:-1.6em;
+	padding:.3em 1em;	
+	position:absolute;
+	right:0;
+}
+.norecords{
+	color:#fff;
+	text-align:center;
+}
+
